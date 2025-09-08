@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: var(--space-14);
+    position: fixed ;
+    background-color: var(--branco);
+    z-index: 500;
+}
+
+.logos-header {
+    margin: 0 var(--space-17) 0 0;
+}
+
+.logo-header{
+    width: var(--space-14); 
+    height: var(--space-9);
+}
+
+.certificados-header {
+    width: var(--space-14);
+    height: var(--space-9);
+}
+
+.botao-header{
+    align-items: center;
+    text-align: center;
+    margin: 0 var(--space-2) 0 var(--space-2);
+    width: var(--space-14);
+    height: var(--space-7);
+    font-size: var(--space-3);
+    background: var(--azul);
+    color: var(--branco);
+    border-radius: var(--space-3);
+    border: none;
+    cursor: pointer;
+}
+
+.botao-header:hover{
+    background: var(--vermelho);
+    transition: 0.3s;
+}

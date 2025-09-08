@@ -1,0 +1,132 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu button {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: none;
+    width: var(--space-A4);
+    margin: var(--space-1);
+    cursor: pointer;
+}
+
+.container-botoes-menu {
+    margin: var(--space-14) 0 var(--space-9) 0;
+    width: 100%;
+}
+    
+.box-botoes {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: var(--space-3);
+    background-color: var(--vermelho);
+    height: var(--space-9);
+    max-width: 66.875rem; 
+    margin-top: var(--space-2);
+    position: relative;
+    overflow: visible;
+}
+
+.sub-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.sub-menu .box-botoes-secundarios {
+    display: flex;                
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--vermelho);
+    padding: var(--space-2) 0;
+    border-radius: 0 0 var(--space-3) var(--space-3);
+    min-width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.sub-menu:hover .box-botoes-secundarios {
+    flex-direction: column;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.botao-principal {
+    position: relative;
+    font-size: var(--fonte-lg);
+    font-weight: 700;
+}
+
+.botao-secundario {
+    height: var(--space-9);
+    font-size: var(--fonte-md);
+    margin: var(--space-1) var(--space-2);
+    padding: var(--space-3);
+    border-radius: var(--space-2);
+}
+
+.botao-secundario:hover {
+    background-color: var(--azul);
+}   
+
+/* ========= BANNER ========= */
+
+.box-to-box-imagem {
+    margin: var(--space-2) 0 var(--space-2) 0;
+    overflow: hidden;
+}
+
+.box-imagem {
+    display: block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    max-width: 66.875rem;
+    height: var(--space-17);
+    border-radius: var(--space-3);
+    z-index: 0;
+}
+
+@keyframes fade {
+    0%, 10%   { opacity: 0; }
+    10%, 50%  { opacity: 1; }
+    35%, 100% { opacity: 0; }
+}
+
+.slide {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: fade 28s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide:nth-child(1) {
+    animation-delay: 0s;
+}
+.slide:nth-child(2) {
+    animation-delay: 7s;
+}
+.slide:nth-child(3) {
+    animation-delay: 14s;
+}
+.slide:nth-child(4) {
+    animation-delay: 21s; 
+}

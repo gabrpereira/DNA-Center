@@ -1,0 +1,66 @@
+.contatos {
+    width: 100%;
+    height: var(--space-17);
+    background-color: var(--cinza);
+    color: var(--azul);
+    margin-top: var(--space-9);
+}
+
+.box-contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    padding: var(--space-6) var(--space-14);
+}
+
+.contato-email,
+.contato-app {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 var(--space-5);
+}
+
+.imagem-contato {
+    width: var(--space-7);
+    height: var(--space-7);
+    margin: var(--space-3);
+}
+
+.texto-contato {
+    padding: var(--space-3);
+    font-family: Inter;
+    font-size: var(--fonte-sm);
+    font-weight: 400;
+    line-height: var(--space-3);
+}
+
+/* ========== FORM ========== */
+
+.form-contato {
+    display: flex;
+    justify-content: center;
+    margin: var(--space-2);
+}
+
+
+.input-contato {
+    border-radius: var(--space-2);
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    width: var(--space-16);
+    height: var(--space-6);
+    padding: var(--space-1);
+    background: var(--branco);
+}
+
+
+.botao-contato {
+    border-radius: var(--space-2);
+    color: var(--branco);
+    width: var(--space-16);
+    height: var(--space-6);
+    padding: var(--space-1);
+    background: var(--azul);
+}
