@@ -16,16 +16,16 @@
 .box-atividade-01, .box-atividade-02, .box-atividade-03 {
     flex-direction: column;
     text-align: center;
-    padding: 0 var(--space-5);
+    padding: 0 var(--space-8);
 }
 
 .titulo-atividade {
-    padding: var(--space-3);
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: var(--space-3);
     color: var(--branco);
-    font-size: var(--fonte-lg);
+    font-size: var(--fonte-xl);
     font-style: normal;
     font-weight: 700;
     line-height: var(--space-4);
@@ -44,7 +44,6 @@
 .texto-atividade {
     color: var(--branco);
     padding: var(--space-3);
-    font-family: Inter;
     font-size: var(--fonte-sm);
     font-weight: 400;
     line-height: var(--space-3);
@@ -58,4 +57,14 @@
     color: var(--branco);
     font-size: var(--fonte-md);
     font-weight: 700;
+    transition: border-bottom 0.2s ease-in; 
+    border-bottom: 2px solid transparent; 
+    border-radius: 2px;
+    width: var(--space-10);
+    padding: var(--space-1);
+}
+
+.botao-atividade:hover {
+    color: var(--vermelho);
+    border-bottom: 2px solid var(--vermelho); 
 }

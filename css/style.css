@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    font-family: "Inter", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: var(--cinza);   
     overflow-x: hidden;
 }
@@ -45,11 +45,11 @@ body{
 }
 
 :root {
-    --fonte-xs: 0.75rem;  
-    --fonte-sm: 0.875rem; 
+    --fonte-xs: 0.75rem;  /* 12px  */
+    --fonte-sm: 0.875rem; /* 14px  */
     --fonte-md: 1rem;     /* 16px  */
-    --fonte-lg: 1.25rem;  
-    --fonte-xl: 1.5rem;   
+    --fonte-lg: 1.25rem;  /* 20px  */
+    --fonte-xl: 1.5rem;   /* 24px  */
     --fonte-xxl: 2rem;    /* 32px  */
     --fonte-hero: 3rem;   /* 48px  */
 }

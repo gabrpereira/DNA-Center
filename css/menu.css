@@ -43,14 +43,14 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: var(--vermelho);
-    padding: var(--space-2) 0;
-    border-radius: 0 0 var(--space-3) var(--space-3);
     min-width: 100%;
     opacity: 0;
+    pointer-events: none;
+    padding: var(--space-3) var(--space-1) var(--space-2);
+    background-color: var(--vermelho);
+    border-radius: 0 0 var(--space-3) var(--space-3);
     transition: opacity 0.3s ease-in-out;
     z-index: 100;
-    pointer-events: none;
 }
 
 .sub-menu:hover .box-botoes-secundarios {
@@ -62,14 +62,14 @@
 .botao-principal {
     position: relative;
     font-size: var(--fonte-lg);
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .botao-secundario {
-    height: var(--space-9);
+    height: var(--space-7);
     font-size: var(--fonte-md);
-    margin: var(--space-1) var(--space-2);
-    padding: var(--space-3);
+    font-weight: 800;
+    text-align: center;
     border-radius: var(--space-2);
 }
 
@@ -89,10 +89,11 @@
     margin: auto;
     text-align: center;
     position: relative;
+    border-radius: var(--space-3);
+    overflow: hidden;
     max-width: 66.875rem;
     height: var(--space-17);
-    border-radius: var(--space-3);
-    z-index: 0;
+    z-index: 10;
 }
 
 @keyframes fade {
@@ -105,9 +106,9 @@
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
     width: 100%;
     height: 100%;
-    opacity: 0;
     animation: fade 28s infinite;
     animation-timing-function: ease-in-out;
 }
