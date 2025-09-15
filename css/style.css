@@ -12,7 +12,7 @@ body{
     background-size: cover;
     background-position: center;
     font-family: "Raleway", sans-serif;
-    color: var(--cinza);   
+    color: var(--azul);   
     overflow-x: hidden;
 }
 
@@ -34,7 +34,7 @@ body{
     --space-8:  3.5rem;  /* 56px  */
     --space-9:  4rem;    /* 64px  */
     --space-10: 5rem;    /* 80px  */
-    --space-11: 5.5rem;  /* 88px  */
+    --space-11: 5.5rem;  /* 88px  */    
     --space-12: 6rem;    /* 96px  */
     --space-13: 6.5rem;  /* 104px */
     --space-A4: 9rem;    /* 144px */
@@ -52,4 +52,8 @@ body{
     --fonte-xl: 1.5rem;   /* 24px  */
     --fonte-xxl: 2rem;    /* 32px  */
     --fonte-hero: 3rem;   /* 48px  */
+}
+
+:root {
+    --f-fam: "Raleway", sans-serif;
 }

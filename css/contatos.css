@@ -12,7 +12,7 @@
     align-items: center;
     text-align: center;
     flex-direction: row;
-    padding: var(--space-6) var(--space-14);
+    padding: var(--space-6) var(--space-14) var(--space-8);
 }
 
 .contato-email,
@@ -25,12 +25,38 @@
 .imagem-contato {
     width: var(--space-7);
     height: var(--space-7);
-    margin: var(--space-3);
+    margin: var(--space-2);
+}
+
+.titulo-contato {
+    text-align: center;
+    padding: var(--space-3);
+    color: var(--azul);
+    font-size: var(--fonte-xl);
+    font-weight: 700;
+    line-height: var(--space-4);
+}
+
+.quebra {
+    white-space: normal;
+}
+
+.quebra::before {
+    content: "\A";
+    white-space: pre;
+}
+
+.texto-contato-app {
+    padding: var(--space-4);
+    font-family: var(--f-fam);
+    font-size: var(--fonte-sm);
+    font-weight: 400;
+    line-height: var(--space-3);
 }
 
 .texto-contato {
     padding: var(--space-3);
-    font-family: Inter;
+    font-family: var(--f-fam);
     font-size: var(--fonte-sm);
     font-weight: 400;
     line-height: var(--space-3);
@@ -46,7 +72,7 @@
 
 
 .input-contato {
-    border-radius: var(--space-2);
+    border-radius: var(--space-3);
     border: 1px solid var(--azul);
     color: var(--azul);
     width: var(--space-16);
@@ -57,10 +83,17 @@
 
 
 .botao-contato {
-    border-radius: var(--space-2);
+    border: none;
+    border-radius: var(--space-3);
     color: var(--branco);
     width: var(--space-16);
     height: var(--space-6);
     padding: var(--space-1);
     background: var(--azul);
+    cursor: pointer;
+}
+
+.botao-contato:hover {
+    background-color: var(--vermelho);
+    transition: 0.3s;
 }
