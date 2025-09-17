@@ -77,19 +77,20 @@
     color: var(--azul);
     width: var(--space-16);
     height: var(--space-6);
-    padding: var(--space-1);
+    padding: var(--space-3);
     background: var(--branco);
 }
 
-
 .botao-contato {
+    background: var(--azul);
+    color: var(--branco);
     border: none;
     border-radius: var(--space-3);
-    color: var(--branco);
     width: var(--space-16);
     height: var(--space-6);
     padding: var(--space-1);
-    background: var(--azul);
+    font-size: var(--fonte-md);
+    font-weight: 600;
     cursor: pointer;
 }
 

@@ -31,14 +31,8 @@
     line-height: var(--space-4);
 }
 
-.imagem-atividade-cartao {
-    width: var(--space-9);
-    height: var(--space-7);
-}
-
-.imagem-atividade-localizacao, .imagem-atividade-estetoscopio {
-    width: var(--space-7);
-    height: var(--space-7);
+.atividades i {
+    font-size: var(--fonte-hero);
 }
 
 .texto-atividade {

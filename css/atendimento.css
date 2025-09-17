@@ -16,7 +16,7 @@
 }
 
 .titulo-atendimento {
-    padding: var(--space-3);
+    padding: var(--space-3) 0;
     align-items: center;
     color: var(--vermelho);
     font-size: var(--fonte-xl);
@@ -30,7 +30,7 @@
     font-size: var(--fonte-md);
     font-style: normal;
     font-weight: 600;
-    margin: var(--space-3);
+    margin: var(--space-3) 0;
 }
 
 .texto-atendimento {
@@ -52,12 +52,12 @@
     color: var(--branco);
     border: none;
     border-radius: var(--space-3);
-    width: var(--space-17);
-    height: var(--space-7);
-    font-size: var(--fonte-lg);
-    font-weight: 600;
+    width: var(--space-16);
+    height: var(--space-6);
+    padding: var(--space-1);
     margin: var(--space-3) 0;
-    text-align: center;
+    font-size: var(--fonte-md);
+    font-weight: 600;
     cursor: pointer;
 } 
 
