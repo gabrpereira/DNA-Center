@@ -22,15 +22,20 @@
     padding: 0 var(--space-5);
 }
 
-.imagem-contato {
-    width: var(--space-7);
-    height: var(--space-7);
-    margin: var(--space-2);
+.contatos i {
+    font-size: var(--fonte-hero);
 }
 
-.titulo-contato {
-    text-align: center;
+.titulo-contato-01 {
+    padding-bottom: var(--space-3) ;
+}
+
+.titulo-contato-02 {
     padding: var(--space-3);
+}
+.titulo-contato-01,
+.titulo-contato-02 {
+    text-align: center;
     color: var(--azul);
     font-size: var(--fonte-xl);
     font-weight: 700;
